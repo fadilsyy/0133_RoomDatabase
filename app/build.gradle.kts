@@ -53,11 +53,18 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
 
+    // icon
     implementation(libs.compose.icons)
+
+    // room and ksp
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
+
+    // view model
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
+
+    // navigasi
     implementation(libs.androidx.navigation.compose)
     // implementation(libs.androidx.navigation.runtime.ktx)
 }
