@@ -36,6 +36,7 @@ room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 lifecycle-viewmodel-compose = { group = "android.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "viewmodel" }
 lifecycle-runtime-compose = { group = "android.lifecycle", name = "lifecycle-runtime-compose", version.ref = "viewmodel"}
+#androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx"}
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose"}
 
 [plugins]
