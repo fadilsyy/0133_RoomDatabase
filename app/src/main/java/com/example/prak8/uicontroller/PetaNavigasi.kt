@@ -85,10 +85,10 @@ fun HostNavigasi(
         }
         composable(route=DestinasiEditSiswa.routeWithArgs,
             arguments = listOf(navArgument(DestinasiEditSiswa.itemIdArg){
-                type= NavType.intType })) {
+                type= NavType.IntType })) {
             EditSiswaScreen(
                 navigateBack = {navController.popBackStack()},
-                OnNavigateUp = { navController.navigateUp() })
+                onNavigateUp = { navController.navigateUp() })
         }
     }
 }
