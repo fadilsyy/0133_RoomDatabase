@@ -38,7 +38,7 @@ import com.example.prak8.room.Siswa
 import com.example.prak8.route.DestinasiHome
 import com.example.prak8.route.SiswaTopAppBar
 import com.example.prak8.viewmodel.HomeViewModel
-import com.example.prak8.viewmodel.PenyediaViewModel
+import com.example.prak8.viewmodel.provider.PenyediaViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
