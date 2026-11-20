@@ -28,8 +28,8 @@ import com.example.prak8.route.DestinasiEntry
 import com.example.prak8.route.SiswaTopAppBar
 import com.example.prak8.viewmodel.DetailSiswa
 import com.example.prak8.viewmodel.EntryViewModel
-import com.example.prak8.viewmodel.PenyediaViewModel
 import com.example.prak8.viewmodel.UIStateSiswa
+import com.example.prak8.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
