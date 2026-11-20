@@ -11,7 +11,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.prak8.route.DestinasiEditSiswa
 import com.example.prak8.route.SiswaTopAppBar
 import com.example.prak8.viewmodel.EditViewModel
-import com.example.prak8.viewmodel.PenyediaViewModel
+import com.example.prak8.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

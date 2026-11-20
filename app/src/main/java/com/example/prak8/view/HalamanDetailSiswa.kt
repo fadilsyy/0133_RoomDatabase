@@ -40,7 +40,7 @@ import com.example.prak8.route.DestinasiDetailSiswa
 import com.example.prak8.route.SiswaTopAppBar
 import com.example.prak8.viewmodel.DetailSiswaUiState
 import com.example.prak8.viewmodel.DetailViewModel
-import com.example.prak8.viewmodel.PenyediaViewModel
+import com.example.prak8.viewmodel.provider.PenyediaViewModel
 import com.example.prak8.viewmodel.toSiswa
 import kotlinx.coroutines.launch
 
