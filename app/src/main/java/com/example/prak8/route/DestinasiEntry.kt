@@ -1,4 +1,4 @@
-package com.example.prak8.uicontroller
+package com.example.prak8.route
 
 import com.example.prak8.R
 

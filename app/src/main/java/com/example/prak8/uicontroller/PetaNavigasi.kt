@@ -1,4 +1,4 @@
-package com.example.prak8.uicontroller
+package com.example.prak8.route
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
@@ -20,7 +20,6 @@ import androidx.navigation.navArgument
 import com.example.prak8.R
 import com.example.prak8.view.EntrySiswaScreen
 import com.example.prak8.view.HomeScreen
-import com.example.prak8.viewmodel.DetailSiswa
 
 @Composable
 fun SiswaApp(navController: NavHostController = rememberNavController()) {

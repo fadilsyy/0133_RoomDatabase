@@ -1,4 +1,4 @@
-package com.example.prak8.uicontroller
+package com.example.prak8.route
 
 interface DestinasiNavigasi {
     // nama unuk untuk menentukan jalur untuk composable

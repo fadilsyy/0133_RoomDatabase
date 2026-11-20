@@ -34,8 +34,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.prak8.R
 import com.example.prak8.room.Siswa
-import com.example.prak8.uicontroller.DestinasiHome
-import com.example.prak8.uicontroller.SiswaTopAppBar
+import com.example.prak8.route.DestinasiHome
+import com.example.prak8.route.SiswaTopAppBar
 import com.example.prak8.viewmodel.HomeViewModel
 import com.example.prak8.viewmodel.PenyediaViewModel
 
