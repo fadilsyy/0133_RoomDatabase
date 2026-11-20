@@ -18,6 +18,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.prak8.R
+import com.example.prak8.route.DestinasiDetailSiswa.itemIdArg
+import com.example.prak8.view.DetailSiswaScreen
+import com.example.prak8.view.EditSiswaScreen
 import com.example.prak8.view.EntrySiswaScreen
 import com.example.prak8.view.HomeScreen
 
@@ -80,6 +83,7 @@ fun HostNavigasi(
             })
         ){
             DetailSiswaScreen(
+                navigateToEditItem = { navController.navigate("${DestinasiEditSiswa.route}/$it") },
                 navigateBack = { navController.navigateUp() })
         }
         composable(route=DestinasiEditSiswa.routeWithArgs,
